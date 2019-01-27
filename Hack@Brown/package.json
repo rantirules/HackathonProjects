@@ -1,0 +1,19 @@
+{
+  "name": "googleapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon main.js"
+  },
+  "author": "Ranti",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.23.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "images-scraper": "^2.0.11",
+    "nodemon": "^1.18.7"
+  }
+}
